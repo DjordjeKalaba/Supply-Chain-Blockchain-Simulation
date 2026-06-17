@@ -7,6 +7,7 @@ GUI aplikacija je razvijena u Python-u koristeći Tkinter, dok je sama blockchai
 **Opis sistema**
 
 Svaki proizvod se tretira kao zaseban blockchain lanac. Prvi blok (genesis blok) se automatski kreira, a zatim se dodaju novi blokovi koji predstavljaju faze u lancu snabdijevanja:
+
 Manufacturer(proizvođač)
 Distributor(distribucija)
 Retailer(prodavnica)
