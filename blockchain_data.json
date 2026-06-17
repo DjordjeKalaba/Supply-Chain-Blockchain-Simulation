@@ -1,0 +1,332 @@
+{
+    "Hljeb": [
+        {
+            "index": 0,
+            "timestamp": "2025-12-19T14:32:10.343716",
+            "data": {
+                "proizvod": "GENESIS",
+                "faza": "Po\u010detak",
+                "entitet": "Sistem",
+                "uspje\u0161no": true,
+                "vrijeme": "19.12.2025 14:32:10"
+            },
+            "previous_hash": "0",
+            "hash": "6155e45829b41995570a22f7f13e3a2c2da103b46c6ea81ba9c029cfc84a9a10"
+        },
+        {
+            "index": 1,
+            "timestamp": "2025-12-19T14:32:10.344144",
+            "data": {
+                "proizvod": "Hljeb",
+                "faza": "manufacturer",
+                "entitet": "Manja",
+                "tip": "Food",
+                "uspje\u0161no": true,
+                "vrijeme": "19.12.2025 14:32:10"
+            },
+            "previous_hash": "6155e45829b41995570a22f7f13e3a2c2da103b46c6ea81ba9c029cfc84a9a10",
+            "hash": "2cefc66067e1f75cfb2929b506f33bee150ac7a38d3da73beff83178e6bd9126"
+        },
+        {
+            "index": 2,
+            "timestamp": "2025-12-19T14:39:10.417337",
+            "data": {
+                "proizvod": "Hljeb",
+                "faza": "distributor",
+                "entitet": "Manja",
+                "uspje\u0161no": true,
+                "vrijeme": "19.12.2025 14:39:10"
+            },
+            "previous_hash": "2cefc66067e1f75cfb2929b506f33bee150ac7a38d3da73beff83178e6bd9126",
+            "hash": "090c925a0a43ebb0cf480fc3a644ccd1458e1edeb5ba8db99be5770ff7e35a88"
+        },
+        {
+            "index": 3,
+            "timestamp": "2025-12-19T14:39:30.798529",
+            "data": {
+                "proizvod": "Hljeb",
+                "faza": "retailer",
+                "entitet": "Tropic",
+                "uspje\u0161no": true,
+                "vrijeme": "19.12.2025 14:39:30"
+            },
+            "previous_hash": "090c925a0a43ebb0cf480fc3a644ccd1458e1edeb5ba8db99be5770ff7e35a88",
+            "hash": "71932bed53d38630c96b4ba9b127feaaed85db3f32b2fb9714e569b6d0ad1e4a"
+        },
+        {
+            "index": 4,
+            "timestamp": "2025-12-19T14:39:44.731067",
+            "data": {
+                "proizvod": "Hljeb",
+                "faza": "customer",
+                "entitet": "Marko Markovic",
+                "uspje\u0161no": true,
+                "vrijeme": "19.12.2025 14:39:44"
+            },
+            "previous_hash": "71932bed53d38630c96b4ba9b127feaaed85db3f32b2fb9714e569b6d0ad1e4a",
+            "hash": "169dec9797231171274a3ae5cc01374e9aca2b207fc25e4df67f153e677a85c2"
+        }
+    ],
+    "Laptop": [
+        {
+            "index": 0,
+            "timestamp": "2025-12-19T14:32:50.068038",
+            "data": {
+                "proizvod": "GENESIS",
+                "faza": "Po\u010detak",
+                "entitet": "Sistem",
+                "uspje\u0161no": true,
+                "vrijeme": "19.12.2025 14:32:50"
+            },
+            "previous_hash": "0",
+            "hash": "34bb5a3390292e2b143188a697df9279f38e3d994cd9e245826e66169285ce81"
+        },
+        {
+            "index": 1,
+            "timestamp": "2025-12-19T14:32:50.068250",
+            "data": {
+                "proizvod": "Laptop",
+                "faza": "manufacturer",
+                "entitet": "Dell",
+                "tip": "Electronics",
+                "uspje\u0161no": true,
+                "vrijeme": "19.12.2025 14:32:50"
+            },
+            "previous_hash": "34bb5a3390292e2b143188a697df9279f38e3d994cd9e245826e66169285ce81",
+            "hash": "10d7b9128914fadc4109a50da57bf3501d210251ea76148bea7a1db06529b886"
+        },
+        {
+            "index": 2,
+            "timestamp": "2025-12-19T14:42:49.059004",
+            "data": {
+                "proizvod": "Laptop",
+                "faza": "distributor",
+                "entitet": "ASBIS",
+                "uspje\u0161no": true,
+                "vrijeme": "19.12.2025 14:42:49"
+            },
+            "previous_hash": "10d7b9128914fadc4109a50da57bf3501d210251ea76148bea7a1db06529b886",
+            "hash": "fa4e39faa1d760c9d964f5b585470e76e3f8a8b3b0ba58eae0c99e56a2363d54"
+        },
+        {
+            "index": 3,
+            "timestamp": "2025-12-19T14:43:01.962010",
+            "data": {
+                "proizvod": "Laptop",
+                "faza": "retailer",
+                "entitet": "Technoshop",
+                "uspje\u0161no": true,
+                "vrijeme": "19.12.2025 14:43:01"
+            },
+            "previous_hash": "fa4e39faa1d760c9d964f5b585470e76e3f8a8b3b0ba58eae0c99e56a2363d54",
+            "hash": "a0221687fb4d78739505376a342a83f4c313f6ed8b04922e7f32dff04301769e"
+        }
+    ],
+    "Mlijeko": [
+        {
+            "index": 0,
+            "timestamp": "2025-12-19T14:33:02.309928",
+            "data": {
+                "proizvod": "GENESIS",
+                "faza": "Po\u010detak",
+                "entitet": "Sistem",
+                "uspje\u0161no": true,
+                "vrijeme": "19.12.2025 14:33:02"
+            },
+            "previous_hash": "0",
+            "hash": "888fc8f2da014806738696c4e2cb9f57037175ed26d1de26de26f6170aa9edf2"
+        },
+        {
+            "index": 1,
+            "timestamp": "2025-12-19T14:33:02.310123",
+            "data": {
+                "proizvod": "Mlijeko",
+                "faza": "manufacturer",
+                "entitet": "Imlek",
+                "tip": "Food",
+                "uspje\u0161no": true,
+                "vrijeme": "19.12.2025 14:33:02"
+            },
+            "previous_hash": "888fc8f2da014806738696c4e2cb9f57037175ed26d1de26de26f6170aa9edf2",
+            "hash": "0340ae28d23988209f569d4c36468395fcf68bc01a4c3ac76316c50e74404956"
+        },
+        {
+            "index": 2,
+            "timestamp": "2025-12-19T14:43:50.201617",
+            "data": {
+                "proizvod": "Mlijeko",
+                "faza": "distributor",
+                "entitet": "Mlijekoproduktt",
+                "uspje\u0161no": true,
+                "vrijeme": "19.12.2025 14:43:50"
+            },
+            "previous_hash": "0340ae28d23988209f569d4c36468395fcf68bc01a4c3ac76316c50e74404956",
+            "hash": "bfc34035e56b9bbb977b4f41459e30e84088beb4e8f58ec07a66de9de0b4bf07"
+        }
+    ],
+    "Voda": [
+        {
+            "index": 0,
+            "timestamp": "2025-12-19T14:33:25.437030",
+            "data": {
+                "proizvod": "GENESIS",
+                "faza": "Po\u010detak",
+                "entitet": "Sistem",
+                "uspje\u0161no": true,
+                "vrijeme": "19.12.2025 14:33:25"
+            },
+            "previous_hash": "0",
+            "hash": "43bcd60515392cd3c2192d1bb0eaf1d68686036aadd9f1e12140c38d29e204dc"
+        },
+        {
+            "index": 1,
+            "timestamp": "2025-12-19T14:33:25.437299",
+            "data": {
+                "proizvod": "Voda",
+                "faza": "manufacturer",
+                "entitet": "Vivia",
+                "tip": "Drink",
+                "uspje\u0161no": true,
+                "vrijeme": "19.12.2025 14:33:25"
+            },
+            "previous_hash": "43bcd60515392cd3c2192d1bb0eaf1d68686036aadd9f1e12140c38d29e204dc",
+            "hash": "147f60b3c0a629afc26cf887bd155906b4f1806b027e79df3f27a101eb0d72a5"
+        },
+        {
+            "index": 2,
+            "timestamp": "2026-02-01T22:58:03.519082",
+            "data": {
+                "proizvod": "Voda",
+                "faza": "distributor",
+                "entitet": "Vivia",
+                "uspje\u0161no": false,
+                "vrijeme": "01.02.2026 22:58:03"
+            },
+            "previous_hash": "147f60b3c0a629afc26cf887bd155906b4f1806b027e79df3f27a101eb0d72a5",
+            "hash": "582efcb3b80648015f9de41bf76bb1200bbc010e8ce4995a69c7e210376b56a0"
+        }
+    ],
+    "Telefon": [
+        {
+            "index": 0,
+            "timestamp": "2026-01-31T12:53:01.729207",
+            "data": {
+                "proizvod": "GENESIS",
+                "faza": "Po\u010detak",
+                "entitet": "Sistem",
+                "uspje\u0161no": true,
+                "vrijeme": "31.01.2026 12:53:01"
+            },
+            "previous_hash": "0",
+            "hash": "9e4accedb143ce2b757706c2191cf3de8f9d318d1d682349896a4d70975a879c"
+        },
+        {
+            "index": 1,
+            "timestamp": "2026-01-31T12:53:01.729305",
+            "data": {
+                "proizvod": "Telefon",
+                "faza": "manufacturer",
+                "entitet": "Samsung",
+                "tip": "Electronics",
+                "uspje\u0161no": true,
+                "vrijeme": "31.01.2026 12:53:01"
+            },
+            "previous_hash": "9e4accedb143ce2b757706c2191cf3de8f9d318d1d682349896a4d70975a879c",
+            "hash": "8d39c27d5c72a38e60b534f2677c29c10d99d83ddb7277eaf58f190a37b2184d"
+        },
+        {
+            "index": 2,
+            "timestamp": "2026-01-31T12:54:24.326128",
+            "data": {
+                "proizvod": "Telefon",
+                "faza": "distributor",
+                "entitet": "Samsung BiH",
+                "uspje\u0161no": true,
+                "vrijeme": "31.01.2026 12:54:24"
+            },
+            "previous_hash": "8d39c27d5c72a38e60b534f2677c29c10d99d83ddb7277eaf58f190a37b2184d",
+            "hash": "18e3387811749fc6a6d2855f0c694e07e09d0600608a213bd3fc6a0fb290d9c2"
+        },
+        {
+            "index": 3,
+            "timestamp": "2026-01-31T12:54:49.421160",
+            "data": {
+                "proizvod": "Telefon",
+                "faza": "retailer",
+                "entitet": "Telefoni BL",
+                "uspje\u0161no": true,
+                "vrijeme": "31.01.2026 12:54:49"
+            },
+            "previous_hash": "18e3387811749fc6a6d2855f0c694e07e09d0600608a213bd3fc6a0fb290d9c2",
+            "hash": "ffd8a553958685443bdc9a8a453819f1749c058dba8a5cb396901dcab8f77297"
+        },
+        {
+            "index": 4,
+            "timestamp": "2026-01-31T12:56:03.054249",
+            "data": {
+                "proizvod": "Telefon",
+                "faza": "customer",
+                "entitet": "David",
+                "uspje\u0161no": true,
+                "vrijeme": "31.01.2026 12:56:03"
+            },
+            "previous_hash": "ffd8a553958685443bdc9a8a453819f1749c058dba8a5cb396901dcab8f77297",
+            "hash": "4b49a418e4d01fb92f578d43f4b7cca62b6c716371fcaf03f02fc2480022ac82"
+        }
+    ],
+    "Olovka": [
+        {
+            "index": 0,
+            "timestamp": "2026-02-02T10:42:37.972884",
+            "data": {
+                "proizvod": "GENESIS",
+                "faza": "Po\u010detak",
+                "entitet": "Sistem",
+                "uspje\u0161no": true,
+                "vrijeme": "02.02.2026 10:42:37"
+            },
+            "previous_hash": "0",
+            "hash": "cade5307b531cf9d9c65acd20bc5023fa6a62d2eefac895c60ab613d3c3103c3"
+        },
+        {
+            "index": 1,
+            "timestamp": "2026-02-02T10:42:37.972970",
+            "data": {
+                "proizvod": "Olovka",
+                "faza": "manufacturer",
+                "entitet": "Pelikan",
+                "tip": "Electronics",
+                "uspje\u0161no": true,
+                "vrijeme": "02.02.2026 10:42:37"
+            },
+            "previous_hash": "cade5307b531cf9d9c65acd20bc5023fa6a62d2eefac895c60ab613d3c3103c3",
+            "hash": "d26a06341059c2811f3a76fac865826bca54d8035e6dc20b07b84215945024a3"
+        },
+        {
+            "index": 2,
+            "timestamp": "2026-02-02T10:43:11.545724",
+            "data": {
+                "proizvod": "Olovka",
+                "faza": "distributor",
+                "entitet": "Distributor",
+                "uspje\u0161no": true,
+                "vrijeme": "02.02.2026 10:43:11"
+            },
+            "previous_hash": "d26a06341059c2811f3a76fac865826bca54d8035e6dc20b07b84215945024a3",
+            "hash": "f6c70d0710a509152e7a7a2cf7a64ab8691c098ba34e927c0d02b6bd4b8e5977"
+        },
+        {
+            "index": 3,
+            "timestamp": "2026-02-02T10:43:27.478725",
+            "data": {
+                "proizvod": "Olovka",
+                "faza": "retailer",
+                "entitet": "d",
+                "uspje\u0161no": true,
+                "vrijeme": "02.02.2026 10:43:27"
+            },
+            "previous_hash": "f6c70d0710a509152e7a7a2cf7a64ab8691c098ba34e927c0d02b6bd4b8e5977",
+            "hash": "102a54bc57421d1b914a2127ec346e19266f0fe8c7f9eb518498b9ff32e867a9"
+        }
+    ]
+}
