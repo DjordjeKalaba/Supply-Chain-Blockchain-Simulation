@@ -1,32 +1,41 @@
 **Supply Chain Blockchain Simulation**
 
-Ovaj projekat predstavlja simulaciju lanca snabdijevanja zasnovanu na konceptu blockchain tehnologije. Cilj sistema je praćenje proizvoda kroz različite faze isporuke, od proizvođača do krajnjeg kupca, uz osiguranje integriteta i transparentnosti podataka.
+Ovaj projekat predstavlja simulaciju lanca snabdijevanja implementiranu korišćenjem blockchain strukture podataka. Aplikacija omogućava praćenje proizvoda kroz više faza isporuke, od proizvođača do krajnjeg kupca, uz osiguranje integriteta podataka i transparentno praćenje svake promjene.
 
-Aplikacija je razvijena kao jednostavna GUI desktop aplikacija koja omogućava unos, pregled i verifikaciju podataka o kretanju proizvoda kroz lanac snabdijevanja.
+GUI aplikacija je razvijena u Python-u koristeći Tkinter, dok je sama blockchain logika implementirana kao lokalni, samostalni modul unutar aplikacije.
 
 **Opis sistema**
 
-Svaki proizvod prolazi kroz više definisanih entiteta u lancu snabdijevanja, kao što su proizvođač, distributer, prodavnica i kupac. Svaka faza se bilježi kao blok u blockchain strukturi, gdje svaki blok sadrži informacije o obrađivaču, vremenu obrade i statusu isporuke.
+Svaki proizvod se tretira kao zaseban blockchain lanac. Prvi blok (genesis blok) se automatski kreira, a zatim se dodaju novi blokovi koji predstavljaju faze u lancu snabdijevanja:
+Manufacturer(proizvođač)
+Distributor(distribucija)
+Retailer(prodavnica)
+Customer(kupac)
 
-Korisnici mogu pratiti kompletan put proizvoda, pregledati istoriju svih faza i provjeriti integritet blockchaina kako bi se osiguralo da podaci nisu mijenjani.
+Svaki blok sadrži:
+Naziv proizvoda
+Fazu u lancu snabdijevanja
+Entitet koji je obradio proizvod
+Status uspješnosti
+Vremensku oznaku
+Hash i prethodni hash (za validaciju integriteta)
 
 **Funkcionalnosti**
 
-Unos podataka o fazama lanca snabdijevanja
-Evidencija obrade proizvoda kroz različite entitete
-Praćenje trenutnog statusa proizvoda
-Pregled kompletne istorije kretanja proizvoda
-Verifikacija integriteta blockchain strukture
-Simulacija kretanja više proizvoda kroz lanac snabdijevanja
-Grafički prikaz statusa i istorije proizvoda kroz GUI
-
-**Arhitektura sistema**
-
-Sistem je implementiran korišćenjem jednostavne blockchain strukture gdje je svaki blok povezan sa prethodnim putem hash vrijednosti, čime se osigurava nepromjenjivost podataka. GUI aplikacija omogućava korisnicima interakciju sa sistemom i vizuelni prikaz procesa.
+Kreiranje novih proizvoda i inicijalizacija blockchaina
+Obrada proizvoda kroz definisane faze lanca snabdijevanja
+Validacija redoslijeda faza (strogo kontrolisan workflow)
+Verifikacija integriteta blockchaina
+Detekcija korupcije podataka (hash mismatch / chain break)
+Pregled kompletne istorije proizvoda
+Grafički prikaz statusa proizvoda kroz faze
+Vizuelni dashboard svih proizvoda
+Perzistentno čuvanje podataka u JSON fajlu
 
 **Tehnologije**
 
-GUI desktop aplikacija (WPF)
+Python
+Tkinter (GUI)
+SHA-256 hashing
+JSON storage
 Objektno orijentisano programiranje
-Blockchain koncept (hash povezani blokovi)
-Lokalna simulacija podataka
