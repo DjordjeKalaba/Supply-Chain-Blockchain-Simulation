@@ -13,9 +13,7 @@ Korisnici mogu pratiti kompletan put proizvoda, pregledati istoriju svih faza i 
 **Funkcionalnosti**
 
 Unos podataka o fazama lanca snabdijevanja
-
 Evidencija obrade proizvoda kroz različite entitete
-
 Praćenje trenutnog statusa proizvoda
 Pregled kompletne istorije kretanja proizvoda
 Verifikacija integriteta blockchain strukture
