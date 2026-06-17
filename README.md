@@ -13,29 +13,29 @@ Svaki proizvod se tretira kao zaseban blockchain lanac. Prvi blok (genesis blok)
 - Customer(kupac)
 
 Svaki blok sadrži:
-Naziv proizvoda
-Fazu u lancu snabdijevanja
-Entitet koji je obradio proizvod
-Status uspješnosti
-Vremensku oznaku
-Hash i prethodni hash (za validaciju integriteta)
+- Naziv proizvoda
+- Fazu u lancu snabdijevanja
+- Entitet koji je obradio proizvod
+- Status uspješnosti
+- Vremensku oznaku
+- Hash i prethodni hash (za validaciju integriteta)
 
 **Funkcionalnosti**
 
-Kreiranje novih proizvoda i inicijalizacija blockchaina
-Obrada proizvoda kroz definisane faze lanca snabdijevanja
-Validacija redoslijeda faza (strogo kontrolisan workflow)
-Verifikacija integriteta blockchaina
-Detekcija korupcije podataka (hash mismatch / chain break)
-Pregled kompletne istorije proizvoda
-Grafički prikaz statusa proizvoda kroz faze
-Vizuelni dashboard svih proizvoda
-Perzistentno čuvanje podataka u JSON fajlu
+- Kreiranje novih proizvoda i inicijalizacija blockchaina
+- Obrada proizvoda kroz definisane faze lanca snabdijevanja
+- Validacija redoslijeda faza (strogo kontrolisan workflow)
+- Verifikacija integriteta blockchaina
+- Detekcija korupcije podataka (hash mismatch / chain break)
+- Pregled kompletne istorije proizvoda
+- Grafički prikaz statusa proizvoda kroz faze
+- Vizuelni dashboard svih proizvoda
+- Perzistentno čuvanje podataka u JSON fajlu
 
 **Tehnologije**
 
-Python
-Tkinter (GUI)
-SHA-256 hashing
-JSON storage
-Objektno orijentisano programiranje
+- Python
+- Tkinter (GUI)
+- SHA-256 hashing
+- JSON storage
+- Objektno orijentisano programiranje
